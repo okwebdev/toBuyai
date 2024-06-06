@@ -9,7 +9,9 @@ function App() {
   const [toBuys, setToBuys] = useState([]);
   const [typing, setTyping] = useState(false)
 
-  const API_KEY = "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";
+  const API_KEY = "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"
+
+ 
 
   const handleSend = async (newMessage) => {
     const newMessages = [...messages, newMessage];
